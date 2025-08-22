@@ -31,9 +31,13 @@ const Footer = () => {
           </div>
 
           <div>
-            <h4 className="font-semibold mb-4">Follow Us</h4>
+            <h4 className="font-semibold mb-4">Follow Me</h4>
             <div className="flex space-x-4">
               {/* Add social media links */}
+              <p className="text-gray-400">
+              https://www.youtube.com/@koreanwithpark
+
+              </p>
               
             </div>
           </div>

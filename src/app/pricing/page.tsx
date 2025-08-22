@@ -6,10 +6,9 @@ export default function PricingPage() {
   const plans = [
     {
       name: 'First Lesson',
-      price: '£20',
-      duration: '50 minutes',
+      price: '$15',
+      duration: '30 minutes',
       features: [
-        'Level assessment',
         'Learning plan discussion',
         'Sample teaching style',
         'Q&A session'
@@ -17,8 +16,8 @@ export default function PricingPage() {
     },
     {
       name: 'Individual Classes',
-      price: '£25',
-      duration: '50 minutes',
+      price: '$30',
+      duration: 'one hour',
       features: [
         '1-on-1 personalized lessons',
         'Flexible scheduling',
@@ -29,7 +28,7 @@ export default function PricingPage() {
     },
     {
       name: 'Package Deal',
-      price: '£120',
+      price: '$140',
       duration: '5 classes',
       features: [
         'All individual class benefits',
@@ -43,7 +42,7 @@ export default function PricingPage() {
     <section className="py-20 bg-gray-50">
       <div className="container mx-auto px-6">
         <div className="text-center mb-12">
-          <h1 className="text-4xl font-bold mb-4">Simple, Transparent Pricing</h1>
+          <h1 className="text-4xl text-green-900 font-bold mb-4">Simple, Transparent Pricing</h1>
           <p className="text-xl text-gray-600">Choose the plan that works for you</p>
         </div>
 
@@ -56,14 +55,14 @@ export default function PricingPage() {
               }`}
             >
               {plan.popular && (
-                <span className="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-indigo-600 text-white px-4 py-1 rounded-full text-sm">
+                <span className="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-green-900 text-white px-4 py-1 rounded-full text-sm text-center">
                   Most Popular
                 </span>
               )}
 
               <div className="text-center mb-8">
                 <h3 className="text-2xl font-bold mb-2">{plan.name}</h3>
-                <div className="text-4xl font-bold text-indigo-600">{plan.price}</div>
+                <div className="text-4xl font-bold text-green-700">{plan.price}</div>
                 <p className="text-gray-600">{plan.duration}</p>
               </div>
 
@@ -80,8 +79,8 @@ export default function PricingPage() {
                 href="/contact"
                 className={`block text-center py-3 px-6 rounded-lg font-semibold transition ${
                   plan.popular
-                    ? 'bg-indigo-600 text-white hover:bg-indigo-700'
-                    : 'bg-gray-100 text-gray-800 hover:bg-gray-200'
+                    ? 'bg-green-900 text-white hover:bg-green-700'
+                    : 'bg-lime-600 text-gray-800 hover:bg-lime-400'
                 }`}
               >
                 Get Started
