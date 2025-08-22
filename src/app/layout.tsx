@@ -8,7 +8,7 @@ import { Toaster } from 'react-hot-toast'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Learn Korean Online | Expert Korean Language Classes',
+  title: 'Korean with Park | Expert Korean Language Classes',
   description: 'Master Korean with personalized online classes from a native speaker.',
 }
 

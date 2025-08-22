@@ -7,14 +7,14 @@ export default function ResourcesPage() {
       title: 'Hangul Guide PDF',
       description: 'Complete guide to Korean alphabet',
       icon: FileText,
-      link: 'https://drive.google.com/file/d/15dEsGmtcEDhmJaOpLrZqnhNlKTSV0SIu/view?usp=sharing',
+      link: 'https://drive.google.com/file/d/1IutrI1hP57Es5w63GBSlYDStxX8MH7sZ/view?usp=sharing',
       type: 'Download PDF'
     },
     {
       title: 'Basic Phrases PDF',
       description: '50 essential Korean phrases with pronunciation',
       icon: Headphones,
-      link: 'https://drive.google.com/file/d/1QrnwoBJ4gRBb6aWx7mX5YhDOQytt5AYc/view?usp=sharing',
+      link: 'https://drive.google.com/file/d/1cZZnUScot5JqcHBp7F8FJoVpMc-LEUxE/view?usp=sharing',
       type: 'Download PDF'
     },
     {
